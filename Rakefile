@@ -5,3 +5,6 @@ require File.expand_path('../config/application', __FILE__)
 require 'rake'
 
 DemoApp::Application.load_tasks
+task :hello do
+ puts "hello"
+end
